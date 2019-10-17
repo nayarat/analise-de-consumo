@@ -1,6 +1,4 @@
-consumoTrafo1 = consumoTrafo1[:, 3]
-consumoTrafo2 = consumoTrafo2[:, 3]
-consumoTrafo3 = consumoTrafo3[:, 3]
-consumoTrafo4 = consumoTrafo4[:, 3]
-
-consumoTotal = consumoTrafo1+consumoTrafo2+consumoTrafo3+consumoTrafo4
+harmonicoTrafo1FaseC = harmonicoTrafo1[:, 9]
+harmonicoTrafo2FaseC = harmonicoTrafo2[:, 9]
+harmonicoTrafo3FaseC = harmonicoTrafo3[:, 9]
+harmonicoTrafo4FaseC = harmonicoTrafo4[:, 9]
