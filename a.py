@@ -1,6 +1,6 @@
-base_url = 'https://raw.githubusercontent.com/LucasFDutra/analise-de-consumo/master/Trafos/consumo/'
+consumoTrafo1 = consumoTrafo1[:, 3]
+consumoTrafo2 = consumoTrafo2[:, 3]
+consumoTrafo3 = consumoTrafo3[:, 3]
+consumoTrafo4 = consumoTrafo4[:, 3]
 
-consumoTrafo1 = np.genfromtxt(base_url + 'Trafo1.csv', delimiter=';')
-consumoTrafo2 = np.genfromtxt(base_url + 'Trafo2.csv', delimiter=';')
-consumoTrafo3 = np.genfromtxt(base_url + 'Trafo3.csv', delimiter=';')
-consumoTrafo4 = np.genfromtxt(base_url + 'Trafo4.csv', delimiter=';')
+consumoTotal = consumoTrafo1+consumoTrafo2+consumoTrafo3+consumoTrafo4
